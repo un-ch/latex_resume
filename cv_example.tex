@@ -1,0 +1,110 @@
+\documentclass[oneside,final,12pt]{extreport}
+\usepackage{vmargin}
+\usepackage{setspace}
+%\usepackage{tgbonum}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{charter}
+\usepackage{multicol}
+\setpapersize{A4}
+\pagestyle{empty}
+\setmarginsrb{1cm}{1cm}{1.5cm}{2cm}{0pt}{0mm}{0pt}{13mm}
+
+\newenvironment{compactlist}{
+	\begin{list}{{$\bullet$}}{
+		\setlength\leftmargin{0.4cm}
+		\setlength\partopsep{0pt}
+		\setlength\parskip{0pt}
+		\setlength\parsep{0pt}
+		\setlength\topsep{0pt}
+		\setlength\itemsep{0pt}
+	}
+}{
+	\end{list}
+}
+
+\sloppy
+\setlength\parindent{0pt}
+%\setstretch{0.9}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+}
+\begin{document}
+\setstretch{1}
+%\rmfamily
+\bfseries
+John Donne\\
+\rule{\textwidth}{0.4pt}
+Contact Information \\
+\noindent
+\mdseries
+%\bfseries
+Email address: \
+%\mdseries
+123@protonmail.com \\
+%\bfseries
+Phone number:
+%\mdseries
+000-000-0001 \\
+%\bfseries
+Github: 
+%\mdseries
+\href{https://github.com/user}{@user} \\
+%\bfseries
+Telegram:
+%\mdseries
+@ \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Career Objective \\
+\mdseries
+Engineer \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Technical Skills
+%\vspace{-\baselineskip}
+\mdseries
+	\begin{compactlist}
+	\item Programming and Scripting Languages: Assembly language (NASM), C, C++, Prolog, Bash, Python 
+	\item Operating Systems: Linux (Mint, Slackware, Devuan), *BSD (FreeBSD)
+	\item Build Automation Tools: GNU Make
+	\item Version Control Systems: Git
+	\item Debugger: GNU Debugger (GDB)
+	\item Documentation Generation Tool: Doxygen
+	\item Databases: MariaDB
+	\item Another tools: Gpof, objdump, strace, LaTeX
+	\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Education and Courses
+\mdseries
+\begin{compactlist}
+	\item School of Science
+	\item School of Science
+\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Foreign Language Skills
+\mdseries
+\begin{compactlist}
+	\item English
+	\item German
+\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Projects Section
+\mdseries
+\begin{compactlist}
+	\item Another Game
+\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\end{document}
