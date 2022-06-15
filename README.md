@@ -1,1 +1,1 @@
-/cv_example.pdf
+./cv_example.pdf
