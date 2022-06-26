@@ -3,4 +3,4 @@ To generate the pdf file you may use command:<br>
 
 
 ![example
-](cv_example.png)
+](resume_example.png)
